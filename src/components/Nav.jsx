@@ -36,7 +36,7 @@ function Nav() {
       <nav className='w-full h-[90px] shadow-lg z-10 flex  items-center justify-between relative transparent px-12'>
                   <div className="logo w-[167px] 1099:w-[90px]">
 
-                        <NavLink to={'/'}><img className='w-full object-contain object-center' src={logo_v4} /></NavLink>
+                        <NavLink to={''}><img className='w-full object-contain object-center' src={logo_v4} /></NavLink>
                             
                   </div>
 

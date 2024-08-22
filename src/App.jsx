@@ -15,13 +15,13 @@ function App() {
         
         
           <Routes>
-              <Route path='/' element={<Layout/>}>
+              <Route path='/carrental/' element={<Layout/>}>
               <Route index element={<Home />} />
-            <Route path='/about' element={<MainAbout/>} />
-            <Route path='/team' element={<Team/>} />
-            <Route path='/contact' element={<Contact/>} />
-            <Route path='/vehiclemodels' element={<VehicleList/>}/>
-            <Route path='/testimonials' element={<MainTestimonials/>} />
+            <Route path='about' element={<MainAbout/>} />
+            <Route path='team' element={<Team/>} />
+            <Route path='contact' element={<Contact/>} />
+            <Route path='vehiclemodels' element={<VehicleList/>}/>
+            <Route path='testimonials' element={<MainTestimonials/>} />
               
               </Route>
 
