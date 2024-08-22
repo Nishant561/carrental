@@ -70,11 +70,11 @@ function Nav() {
 
             <div className='flex px-5 py-9 gap-4 flex-col items-start text-2xl font-semibold'>
             <NavLink to='/'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Home</NavLink>
-                        <NavLink to='/about'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>About</NavLink>
-                        <NavLink to='/vehiclemodels'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap  `}>Vehicle Models</NavLink>
-                        <NavLink to='/testimonials'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Testimonials</NavLink>
-                        <NavLink to='/team'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Our Team</NavLink>
-                        <NavLink to='/contact'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Contact</NavLink>
+                        <NavLink to='about'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>About</NavLink>
+                        <NavLink to='vehiclemodels'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap  `}>Vehicle Models</NavLink>
+                        <NavLink to='testimonials'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Testimonials</NavLink>
+                        <NavLink to='team'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Our Team</NavLink>
+                        <NavLink to='contact'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Contact</NavLink>
             </div>
 
             <div onClick={handelCloseButton} className=''>
