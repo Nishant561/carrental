@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'mainFont';
+    src: url(./assets/elementskit.ttf);
+}
+
+@font-face {
+    font-family: 'secondFont';
+    src: url(./assets/iJWKBXyIfDnIV7nBrXw.woff2);
+}
+
+
+body{
+    font-family: 'secondFont';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.no-select {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+  }
+  
