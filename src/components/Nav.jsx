@@ -69,7 +69,7 @@ function Nav() {
         <div className="small-navbar absolute top-0 z-10  right-0 w-[50%] h-full backdrop-blur-lg fill-transparent 1009min:hidden  421:w-[80%]">
 
             <div className='flex px-5 py-9 gap-4 flex-col items-start text-2xl font-semibold'>
-            <NavLink to='/'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Home</NavLink>
+            <NavLink to=''  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Home</NavLink>
                         <NavLink to='about'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>About</NavLink>
                         <NavLink to='vehiclemodels'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap  `}>Vehicle Models</NavLink>
                         <NavLink to='testimonials'  className={({isActive})=> `${isActive? 'text-orange-500' : 'text-black'} text-nowrap `}>Testimonials</NavLink>
